@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="PT - BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz Educacional</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div id="quiz-container">
+            <!--Formulário Inicial-->
+            <form id="start-form">
+                <h1>Bem-vindo ao Quiz!</h1>
+                <!--Campo para o nome do estudante-->
+                 <label for="name">Nome:</label>
+                 <input type="text" id="name" required>
+
+                 <!--Seleção para série-->
+                 <label for="serie">Série:</label>
+                 <select id="serie" required>
+                    <option value="">Selecione</option>
+                    <option value="9ano">9° Ano</option>
+                    <option value="3ano">3° Ano</option>
+                 </select>
+                
+                 <!--Seleção para disciplina-->
+                 <label for="disciplina">Série:</label>
+                 <select id="disciplina" required>
+                    <option value="">Selecione</option>
+                    <option value="matematica">Matemática</option>
+                    <option value="portugues">Português</option>
+                 </select>
+
+                <!--Botão para iniciar o quiz-->
+                 <button type="submit">Iniciar</button>
+            </form>
+
+                <!--Área do quiz (perguntas)-->
+                <div id="quiz" style="display:none;">
+                    <h2 id="question-text"></h2>
+                    <div id="answers"></div>
+                    <button id="next-button" style="display:none;">Próxima</button>
+                </div>
+                <div id="progress-bar"></div>
+                </div>
+
+                <!--Resultado final-->
+                <div id="result" style="display:none;"></div>
+
+            
+        </div>
+
+                <!--Script do jogo-->
+                <script src="script.js"></script>
+    </body>
+</html>
