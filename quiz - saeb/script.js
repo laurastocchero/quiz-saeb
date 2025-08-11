@@ -153,56 +153,6 @@ const questions = {
                 options: ["a concisão relativa ao texto ao adotar como regra o uso de uma quantidade predefinida de toques.", "a concisão relativa ao texto ao adotar como regra o uso de uma quantidade predefinida de toques.", "o uso de expressões exclusivas da nova forma literária para substituir palavras usuais do português.", "o emprego de palavras pouco usuais no dia a dia para reafirmar a originalidade e o espírito crítico dos usuários desse tipo de rede social.", "o uso de palavras e expressões próprias da mídia eletrônica para restringir a participação de usuários."],
                 correct: 1
             },
-            {
-                question: "",
-                options: [""],
-                correct: 4
-            },
-            {
-                question: "",
-                options: [""],
-                correct: 4
-            },
-            {
-                question: "",
-                options: [""],
-                correct: 4
-            },
-            {
-                question: "",
-                options: [""],
-                correct: 4
-            },
-            {
-                question: "",
-                options: [""],
-                correct: 4
-            },
-            {
-                question: "",
-                options: [""],
-                correct: 4
-            },
-            {
-                question: "",
-                options: [""],
-                correct: 4
-            },
-            {
-                question: "",
-                options: [""],
-                correct: 4
-            },
-            {
-                question: "",
-                options: [""],
-                correct: 4
-            },
-            {
-                question: "",
-                options: [""],
-                correct: 4
-            },
            
         ]
     },
@@ -269,16 +219,7 @@ const questions = {
                 options: ["M", "N", "O", "P"],
                 correct: 1
             },
-            {
-                question: "",
-                options: [""],
-                correct: 4
-            },
-            {
-                question: "",
-                options: [""],
-                correct: 4
-            },
+    
         ],
         portugues: [
             {
@@ -331,26 +272,7 @@ const questions = {
                 options: ["A notícia destaca o humor, e o meme apenas informa sobre a campanha.", "A notícia informa sobre a campanha, e o meme contrasta essa informação.", "A notícia apenas informa a data da campanha, e o meme faz humor com isso.", "Ambos tratam do mesmo tema, destacando o duplo sentido da campanha."],
                 correct: 3
             },
-            {
-                question: "",
-                options: [""],
-                correct: 4
-            },
-            {
-                question: "",
-                options: [""],
-                correct: 4
-            },
-            {
-                question: "",
-                options: [""],
-                correct: 4
-            },
-            {
-                question: "",
-                options: [""],
-                correct: 4
-            }
+            
         ]
     }
     
